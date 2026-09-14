@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ノベルゲーム</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="game-screen">
+        <img class="bg" src="BG1.PNG" alt="背景" />
+        <img class="character" src="girl1_1.PNG" alt="キャラクター" />
+        <img class="frame" src="frame.PNG" alt="ゲームフレーム" />
+
+        <div class="dialogue-box">
+          <div class="speaker-area">
+            <span id="speaker">名前</span>
+          </div>
+          <div class="message-area">
+            <p id="message">セリフ</p>
+          </div>
+
+          <div class="button-row">
+            <button id="logButton" type="button">会話ログ</button>
+            <button id="nextButton" type="button">次へ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
